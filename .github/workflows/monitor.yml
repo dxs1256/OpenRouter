@@ -28,8 +28,8 @@ jobs:
         PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
       run: python openrouter-monitor-pushplus.py
     
-    - name: Commit cache
+    - name: Commit cache and README
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "chore: update model cache"
-        file_pattern: "*.json"
+        commit_message: "chore: update model cache and README"
+        file_pattern: "*.json README.md"
