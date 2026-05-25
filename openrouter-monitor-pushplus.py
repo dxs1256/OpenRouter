@@ -118,18 +118,21 @@ def update_readme(models):
         
         # 生成新表格
         new_table = generate_full_table(models)
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        update_info = f"> 📌 **最后更新**: {timestamp} UTC  \n> 📊 **总计**: {len(models)} 个免费模型"
+        
+        # 北京时间 (UTC+8)
+        from datetime import timezone, timedelta
+        bj_tz = timezone(timedelta(hours=8))
+        bj_time = datetime.now(bj_tz).strftime("%Y-%m-%d %H:%M:%S")
+        update_info = f"> 📌 **最后更新**: {bj_time} (北京时间)  \n> 📊 **总计**: {len(models)} 个免费模型"
         
         # 查找并替换表格部分
-        pattern = r"(\|\s*#\s*\|\s*模型名称.*?\|)(.*?)(>\s*📌\s*\*\*最后更新\*\*:.*?📊.*?模型)"
-        replacement = f"{new_table}\n\n{update_info}"
+        pattern = r"(\|\s*#\s*\|\s*模型名称.*?\| 综合评分 \|)(.*?)(>\s*📌\s*\*\*最后更新\*\*:.*?📊.*?个免费模型)"
+        replacement = f"| # | 模型名称 | Model ID | 上下文长度 | 提供商 | 综合评分 |\n{new_table}\n{update_info}"
         
         new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
         
         if new_content == content:
             print("[提示] README 格式不匹配，尝试简单替换...")
-            # 简单替换表格
             if "| # | 模型名称" in content:
                 start = content.find("| # | 模型名称")
                 end = content.find("> 📊 **总计**:", start)
@@ -140,7 +143,7 @@ def update_readme(models):
         with open(README_FILE, "w", encoding="utf-8") as f:
             f.write(new_content)
         
-        print("✓ README.md 已更新")
+        print(f"✓ README.md 已更新 (北京时间 {bj_time})")
         return True
     except Exception as e:
         print(f"[错误] 更新 README 失败：{e}")
