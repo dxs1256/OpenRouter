@@ -37,6 +37,9 @@ def fetch_free_models():
     free_models = []
     for model in data.get("data", []):
         pricing = model.get("pricing", {})
+        # 跳过 OpenRouter 自家的模型（可选）
+        if model.get("id", "").startswith("openrouter/"):
+            continue
         if pricing.get("prompt", "0") == "0" and pricing.get("completion", "0") == "0":
             free_models.append({
                 "id": model.get("id"),
@@ -48,7 +51,7 @@ def fetch_free_models():
     provider_weight = {
         'openai': 100, 'google': 95, 'meta-llama': 90, 'nvidia': 85,
         'qwen': 80, 'deepseek': 78, 'nousresearch': 75, 'minimax': 70,
-        'openrouter': 65, 'z-ai': 65, 'baidu': 60, 'poolside': 55,
+        'z-ai': 65, 'baidu': 60, 'poolside': 55,
         'arcee-ai': 50, 'liquid': 45, 'cognitivecomputations': 40
     }
     
