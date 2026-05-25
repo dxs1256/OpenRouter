@@ -1,141 +1,70 @@
-# 🚀 快速部署指南
+# OpenRouter 免费模型监控
 
-## 一分钟部署完成
+监控 OpenRouter 平台上的免费模型，自动跟踪模型变化并通过 PushPlus 推送通知。
 
-### 步骤 1: 注册 PushPlus（30 秒）
+## 📊 当前免费模型列表
+
+| # | 模型名称 | Model ID | 上下文长度 | 提供商 |
+|---|---------|----------|-----------|--------|
+| 1 | Google: Gemma 4 26B A4B (free) | `google/gemma-4-26b-a4b-it:free` | 262,144 | Google |
+| 2 | Google: Gemma 4 31B (free) | `google/gemma-4-31b-it:free` | 262,144 | Google |
+| 3 | Meta: Llama 3.3 70B Instruct (free) | `meta-llama/llama-3.3-70b-instruct:free` | 131,072 | Meta |
+| 4 | Meta: Llama 3.2 3B Instruct (free) | `meta-llama/llama-3.2-3b-instruct:free` | 131,072 | Meta |
+| 5 | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1,000,000 | NVIDIA |
+| 6 | Qwen: Qwen3 Coder 480B A35B (free) | `qwen/qwen3-coder:free` | 1,048,576 | Qwen |
+| 7 | DeepSeek: DeepSeek V4 Flash (free) | `deepseek/deepseek-v4-flash:free` | 1,048,576 | DeepSeek |
+| 8 | OpenAI: gpt-oss-120b (free) | `openai/gpt-oss-120b:free` | 131,072 | OpenAI |
+| 9 | OpenAI: gpt-oss-20b (free) | `openai/gpt-oss-20b:free` | 131,072 | OpenAI |
+| 10 | OpenRouter Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter |
+
+> 📌 **最后更新**: 2026-05-25 03:00:00 UTC  
+> 📊 **总计**: 10 个免费模型
+
+---
+
+## 🔔 通知说明
+
+- **新模型上线**: 推送新模型名称、ID、上下文长度
+- **模型下架**: 推送下架模型名称
+- **无变化**: 不发送推送，避免打扰
+
+---
+
+## 🚀 使用方式
+
+### 配置 PushPlus Secret
 
 1. 微信扫码关注"推送加"公众号
 2. 发送消息"token"获取你的 Token
-3. 复制 Token 备用
-
-### 步骤 2: 配置 GitHub Secret（30 秒）
-
-```bash
-# 使用 GitHub CLI（推荐）
-gh secret set PUSHPLUS_TOKEN --body "你的 PushPlus token"
-
-# 或者在 GitHub 网站操作：
-# 1. 访问仓库 -> Settings -> Secrets and variables -> Actions
-# 2. New repository secret
-#    Name: PUSHPLUS_TOKEN
-#    Value: 你的 token
-```
-
-### 步骤 3: 推送代码（30 秒）
-
-```bash
-# 初始化仓库
-git init
-git add .
-git commit -m "Initial commit: OpenRouter monitor with PushPlus"
-
-# 创建远程仓库（在 GitHub）
-# 访问 https://github.com/new
-# 创建仓库：openrouter-model-monitor
-
-# 关联并推送
-git remote add origin https://github.com/你的用户名/openrouter-model-monitor.git
-git branch -M main
-git push -u origin main
-```
-
-### 步骤 4: 启用 Actions（30 秒）
-
-1. 访问仓库的 **Actions** 标签
-2. 点击 **I understand my workflows, go ahead and enable them**
-3. 点击 **Run workflow** 手动测试一次
-
----
-
-## 检查清单
-
-- [ ] PushPlus token 已配置
-- [ ] 代码已推送到 GitHub
-- [ ] Actions 已启用
-- [ ] 手动测试运行成功
-- [ ] 微信公众号收到测试消息
-
----
-
-## 使用方式
-
-### 自动监控
-
-- **频率**: 每小时自动运行一次（UTC 时间）
-- **通知**: 发现新模型时通过微信公众号推送
+3. 在仓库设置中配置 Secret：
+   - **Name**: `PUSHPLUS_TOKEN`
+   - **Value**: 你的 PushPlus token
 
 ### 手动触发
 
-1. 访问仓库 Actions 标签
-2. 选择 "OpenRouter Model Monitor"
-3. 点击 "Run workflow"
+访问 Actions 页面 → 选择 workflow → 点击 **Run workflow**
 
-### 查看运行日志
+### 自动运行
 
-1. Actions -> 最近的运行记录
-2. 点击查看详细日志
-3. 搜索 "PushPlus" 查看推送结果
+每小时自动检查一次（UTC 时间整点）
 
 ---
 
-## 文件说明
+## 📁 文件说明
 
 ```
 .
-├── .github/
-│   └── workflows/
-│       └── monitor.yml          # GitHub Actions 工作流
-├── openrouter-monitor-pushplus.py  # 监控脚本
-├── openrouter_models_cache.json    # 模型缓存（自动生成）
-└── README.md                       # 说明文档
+├── .github/workflows/monitor.yml    # GitHub Actions 工作流
+├── openrouter-monitor-pushplus.py   # 监控脚本
+└── README.md                        # 说明文档（含模型列表）
 ```
 
 ---
 
-## 自定义配置
+## 📈 监控历史
 
-### 修改监控频率
-
-编辑 `.github/workflows/monitor.yml`:
-
-```yaml
-on:
-  schedule:
-    - cron: '0 */2 * * *'  # 每 2 小时一次
-    - cron: '0 9 * * *'    # 每天早上 9 点 (UTC)
-```
-
-### 群组推送
-
-1. 创建 PushPlus 群组
-2. 获取群组编码
-3. 配置 Secret:
-
-```bash
-gh secret set PUSHPLUS_TOPIC --body "你的群组编码"
-```
+查看 [Actions](https://github.com/dxs1256/OpenRouter/actions) 了解运行记录。
 
 ---
 
-## 故障排查
-
-### 没收到推送？
-
-1. 检查 Secret 是否正确配置
-2. 查看 Actions 运行日志
-3. 确认 PushPlus token 有效
-
-### 推送失败？
-
-查看日志中的错误信息：
-- `invalid token`: Token 无效，重新获取
-- `network error`: 网络问题，重试即可
-- `frequency limit`: 频率限制，减少监控频率
-
----
-
-## 完成！🎉
-
-现在你将通过微信公众号及时收到新模型通知！
-
-访问仓库：https://github.com/你的用户名/openrouter-model-monitor
+**最后更新**: 2026-05-25
