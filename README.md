@@ -5,6 +5,7 @@
 ## 📊 当前免费模型列表
 
 | # | 模型名称 | Model ID | 上下文长度 | 提供商 | 综合评分 |
+| # | 模型名称 | Model ID | 上下文长度 | 提供商 | 综合评分 |
 |---|---------|----------|-----------|--------|----------|
 | 1 | Google: Lyria 3 Pro Preview | `google/lyria-3-pro-preview` | 1,048,576 | Google | ⭐1,992,294 |
 | 2 | Google: Lyria 3 Clip Preview | `google/lyria-3-clip-preview` | 1,048,576 | Google | ⭐1,992,294 |
@@ -33,8 +34,7 @@
 | 25 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐29,491 |
 | 26 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐26,214 |
 
-
-> 📌 **最后更新**: 2026-05-25 11:32:57 (北京时间)  
+> 📌 **最后更新**: 2026-05-25 11:42:11 (北京时间)  
 > 📊 **总计**: 26 个免费模型
 ---
 
