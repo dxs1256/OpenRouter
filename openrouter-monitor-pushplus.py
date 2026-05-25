@@ -245,8 +245,8 @@ def check():
     new_ids = current_ids - cached_ids
     removed_ids = cached_ids - current_ids
     
-    # 有变化才通知和更新
-    if new_ids or removed_ids or not cached:
+    # 有变化才推送通知
+    if new_ids or removed_ids:
         # 构建通知内容
         notify_msg = ""
         
@@ -268,17 +268,16 @@ def check():
         # 发送推送
         title = f"🎯 OpenRouter 模型变化 ({len(new_ids)} 新增/{len(removed_ids)} 下架)"
         send_pushplus(title, notify_msg)
-        
-        # 更新缓存
-        with open(DATA_FILE, "w", encoding="utf-8") as f:
-            json.dump({"models": current, "updated_at": datetime.now().isoformat()}, f, ensure_ascii=False, indent=2)
-        
-        # 更新 README
-        update_readme(current)
-    else:
+    elif cached:
         print("✓ 无变化，不推送")
     
-    print(f"✓ 检查完成")
+    # 每次运行都更新缓存和 README
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump({"models": current, "updated_at": datetime.now().isoformat()}, f, ensure_ascii=False, indent=2)
+    
+    update_readme(current)
+    
+    print(f"✓ 检查完成（README 已更新）")
 
 
 if __name__ == "__main__":
