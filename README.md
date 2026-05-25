@@ -5,38 +5,38 @@
 ## 📊 当前免费模型列表
 
 | # | 模型名称 | Model ID | 上下文长度 | 提供商 | 综合评分 |
-| # | 模型名称 | Model ID | 上下文长度 | 提供商 |
-|---|---------|----------|-----------|--------|
-| 1 | Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter |
-| 2 | DeepSeek: DeepSeek V4 Flash (free) | `deepseek/deepseek-v4-flash:free` | 1,048,576 | DeepSeek |
-| 3 | Google: Lyria 3 Pro Preview | `google/lyria-3-pro-preview` | 1,048,576 | Google |
-| 4 | Google: Lyria 3 Clip Preview | `google/lyria-3-clip-preview` | 1,048,576 | Google |
-| 5 | Qwen: Qwen3 Coder 480B A35B (free) | `qwen/qwen3-coder:free` | 1,048,576 | Qwen |
-| 6 | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1,000,000 | NVIDIA |
-| 7 | Google: Gemma 4 26B A4B  (free) | `google/gemma-4-26b-a4b-it:free` | 262,144 | Google |
-| 8 | Google: Gemma 4 31B (free) | `google/gemma-4-31b-it:free` | 262,144 | Google |
-| 9 | Arcee AI: Trinity Large Thinking (free) | `arcee-ai/trinity-large-thinking:free` | 262,144 | Arcee AI |
-| 10 | Qwen: Qwen3 Next 80B A3B Instruct (free) | `qwen/qwen3-next-80b-a3b-instruct:free` | 262,144 | Qwen |
-| 11 | NVIDIA: Nemotron 3 Nano Omni (free) | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | NVIDIA |
-| 12 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | `nvidia/nemotron-3-nano-30b-a3b:free` | 256,000 | NVIDIA |
-| 13 | MiniMax: MiniMax M2.5 (free) | `minimax/minimax-m2.5:free` | 204,800 | MiniMax |
-| 14 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter |
-| 15 | Baidu Qianfan: CoBuddy (free) | `baidu/cobuddy:free` | 131,072 | Baidu |
-| 16 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 131,072 | Poolside |
-| 17 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 131,072 | Poolside |
-| 18 | OpenAI: gpt-oss-120b (free) | `openai/gpt-oss-120b:free` | 131,072 | OpenAI |
-| 19 | OpenAI: gpt-oss-20b (free) | `openai/gpt-oss-20b:free` | 131,072 | OpenAI |
-| 20 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai |
-| 21 | Meta: Llama 3.3 70B Instruct (free) | `meta-llama/llama-3.3-70b-instruct:free` | 131,072 | Meta |
-| 22 | Meta: Llama 3.2 3B Instruct (free) | `meta-llama/llama-3.2-3b-instruct:free` | 131,072 | Meta |
-| 23 | Nous: Hermes 3 405B Instruct (free) | `nousresearch/hermes-3-llama-3.1-405b:free` | 131,072 | Nous |
-| 24 | NVIDIA: Nemotron Nano 12B 2 VL (free) | `nvidia/nemotron-nano-12b-v2-vl:free` | 128,000 | NVIDIA |
-| 25 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA |
-| 26 | LiquidAI: LFM2.5-1.2B-Thinking (free) | `liquid/lfm-2.5-1.2b-thinking:free` | 32,768 | LiquidAI |
-| 27 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI |
-| 28 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice |
+| # | 模型名称 | Model ID | 上下文长度 | 提供商 | 推理评分 |
+|---|---------|----------|-----------|--------|----------|
+| 1 | Qwen: Qwen3 Coder 480B A35B (free) | `qwen/qwen3-coder:free` | 1,048,576 | Qwen | ⭐140 |
+| 2 | Nous: Hermes 3 405B Instruct (free) | `nousresearch/hermes-3-llama-3.1-405b:free` | 131,072 | Nous | ⭐118 |
+| 3 | OpenAI: gpt-oss-120b (free) | `openai/gpt-oss-120b:free` | 131,072 | OpenAI | ⭐113 |
+| 4 | Google: Lyria 3 Pro Preview | `google/lyria-3-pro-preview` | 1,048,576 | Google | ⭐105 |
+| 5 | Google: Lyria 3 Clip Preview | `google/lyria-3-clip-preview` | 1,048,576 | Google | ⭐105 |
+| 6 | OpenAI: gpt-oss-20b (free) | `openai/gpt-oss-20b:free` | 131,072 | OpenAI | ⭐103 |
+| 7 | Meta: Llama 3.3 70B Instruct (free) | `meta-llama/llama-3.3-70b-instruct:free` | 131,072 | Meta | ⭐103 |
+| 8 | Google: Gemma 4 26B A4B  (free) | `google/gemma-4-26b-a4b-it:free` | 262,144 | Google | ⭐100 |
+| 9 | Google: Gemma 4 31B (free) | `google/gemma-4-31b-it:free` | 262,144 | Google | ⭐100 |
+| 10 | Arcee AI: Trinity Large Thinking (free) | `arcee-ai/trinity-large-thinking:free` | 262,144 | Arcee AI | ⭐100 |
+| 11 | Qwen: Qwen3 Next 80B A3B Instruct (free) | `qwen/qwen3-next-80b-a3b-instruct:free` | 262,144 | Qwen | ⭐100 |
+| 12 | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1,000,000 | NVIDIA | ⭐98 |
+| 13 | Meta: Llama 3.2 3B Instruct (free) | `meta-llama/llama-3.2-3b-instruct:free` | 131,072 | Meta | ⭐96 |
+| 14 | DeepSeek: DeepSeek V4 Flash (free) | `deepseek/deepseek-v4-flash:free` | 1,048,576 | DeepSeek | ⭐95 |
+| 15 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | `nvidia/nemotron-3-nano-30b-a3b:free` | 256,000 | NVIDIA | ⭐93 |
+| 16 | NVIDIA: Nemotron 3 Nano Omni (free) | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | NVIDIA | ⭐90 |
+| 17 | NVIDIA: Nemotron Nano 12B 2 VL (free) | `nvidia/nemotron-nano-12b-v2-vl:free` | 128,000 | NVIDIA | ⭐90 |
+| 18 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
+| 19 | LiquidAI: LFM2.5-1.2B-Thinking (free) | `liquid/lfm-2.5-1.2b-thinking:free` | 32,768 | LiquidAI | ⭐88 |
+| 20 | Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter | ⭐85 |
+| 21 | MiniMax: MiniMax M2.5 (free) | `minimax/minimax-m2.5:free` | 204,800 | MiniMax | ⭐82 |
+| 22 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai | ⭐79 |
+| 23 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
+| 24 | Baidu Qianfan: CoBuddy (free) | `baidu/cobuddy:free` | 131,072 | Baidu | ⭐76 |
+| 25 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
+| 26 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 131,072 | Poolside | ⭐71 |
+| 27 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 131,072 | Poolside | ⭐71 |
+| 28 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-05-25 12:07:34 (北京时间)  
+> 📌 **最后更新**: 2026-05-25 12:21:37 (北京时间)  
 > 📊 **总计**: 28 个免费模型
 ---
 
