@@ -28,8 +28,44 @@ PUSHPLUS_TOKEN = os.getenv("PUSHPLUS_TOKEN", "")
 PUSHPLUS_TOPIC = os.getenv("PUSHPLUS_TOPIC", "")
 
 
+def get_reasoning_score(model):
+    """计算模型推理思考能力评分"""
+    name = model.get('name', '').lower()
+    mid = model.get('id', '')
+    provider = mid.split('/')[0].lower()
+    context = model.get('context_length', 0)
+    
+    # 1. 提供商权重（推理能力口碑）
+    provider_score = {
+        'openai': 100, 'google': 95, 'meta-llama': 90, 'nvidia': 88,
+        'qwen': 85, 'deepseek': 85, 'nousresearch': 82, 'minimax': 80,
+        'arcee-ai': 78, 'z-ai': 78, 'openrouter': 75, 'baidu': 75,
+        'poolside': 70, 'liquid': 68, 'cognitivecomputations': 65,
+    }.get(provider, 70)
+    
+    # 2. 推理/思考/代码模型加成
+    reasoning_bonus = 0
+    if 'thinking' in name or 'reason' in name:
+        reasoning_bonus = 20
+    if 'coder' in name or 'coding' in name:
+        reasoning_bonus = 15
+    if 'instruct' in name or 'chat' in name:
+        reasoning_bonus = 5
+    
+    # 3. 参数量加成
+    import re
+    param_match = re.search(r'(\d+)[bB]', model.get('name', ''))
+    params = int(param_match.group(1)) if param_match else 0
+    param_score = min(params / 10, 30)
+    
+    # 4. 上下文长度加成
+    context_score = min(context / 100000, 20)
+    
+    return int(provider_score + reasoning_bonus + param_score + context_score)
+
+
 def fetch_free_models():
-    """获取所有免费模型（按上下文长度排序）"""
+    """获取所有免费模型（按推理能力排序）"""
     response = requests.get(OPENROUTER_API, timeout=30)
     response.raise_for_status()
     data = response.json()
@@ -44,8 +80,8 @@ def fetch_free_models():
                 "context_length": model.get("context_length", 0),
             })
     
-    # 按上下文长度从大到小排序
-    free_models.sort(key=lambda x: x.get("context_length", 0), reverse=True)
+    # 按推理思考能力从强到弱排序
+    free_models.sort(key=lambda x: get_reasoning_score(x), reverse=True)
     
     return free_models
 
@@ -90,9 +126,9 @@ def get_model_provider(model_id):
 
 
 def generate_full_table(models):
-    """生成完整模型表格（按上下文长度排序）"""
-    table = "| # | 模型名称 | Model ID | 上下文长度 | 提供商 |\n"
-    table += "|---|---------|----------|-----------|--------|\n"
+    """生成完整模型表格（按推理能力排序）"""
+    table = "| # | 模型名称 | Model ID | 上下文长度 | 提供商 | 推理评分 |\n"
+    table += "|---|---------|----------|-----------|--------|----------|\n"
     
     for i, model in enumerate(models, 1):
         name = model.get("name", "Unknown")
@@ -100,8 +136,9 @@ def generate_full_table(models):
         context = model.get("context_length", 0)
         context_str = f"{context:,}" if context else "N/A"
         provider = get_model_provider(model_id)
+        score = get_reasoning_score(model)
         
-        table += f"| {i} | {name} | `{model_id}` | {context_str} | {provider} |\n"
+        table += f"| {i} | {name} | `{model_id}` | {context_str} | {provider} | ⭐{score:,} |\n"
     
     return table
 
