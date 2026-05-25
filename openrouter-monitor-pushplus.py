@@ -150,8 +150,8 @@ def update_readme(models):
 def send_pushplus(title, content):
     """发送 PushPlus 通知"""
     if not PUSHPLUS_TOKEN:
-        print(f"[提示] 未配置 PUSHPLUS_TOKEN，跳过推送")
-        print(f"\n{title}\n{content}\n")
+        print(f"[提示] 未配置 PUSHPLUS_TOKEN，只在日志显示变化")
+        print(f"\n{title}\n")
         return None
     
     content_html = f"""
