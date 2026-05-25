@@ -29,7 +29,7 @@ PUSHPLUS_TOPIC = os.getenv("PUSHPLUS_TOPIC", "")
 
 
 def fetch_free_models():
-    """获取所有免费模型（按综合能力排序）"""
+    """获取所有免费模型（按上下文长度排序）"""
     response = requests.get(OPENROUTER_API, timeout=30)
     response.raise_for_status()
     data = response.json()
@@ -44,21 +44,8 @@ def fetch_free_models():
                 "context_length": model.get("context_length", 0),
             })
     
-    # 按综合能力排序（上下文长度 × 提供商权重）
-    provider_weight = {
-        'openai': 100, 'google': 95, 'meta-llama': 90, 'nvidia': 85,
-        'qwen': 80, 'deepseek': 78, 'nousresearch': 75, 'minimax': 70,
-        'openrouter': 65, 'z-ai': 65, 'baidu': 60, 'poolside': 55,
-        'arcee-ai': 50, 'liquid': 45, 'cognitivecomputations': 40
-    }
-    
-    def get_score(m):
-        ctx = m.get('context_length', 0)
-        provider = m.get('id', '').split('/')[0].lower()
-        weight = provider_weight.get(provider, 50)
-        return ctx * (weight / 50)
-    
-    free_models.sort(key=get_score, reverse=True)
+    # 按上下文长度从大到小排序
+    free_models.sort(key=lambda x: x.get("context_length", 0), reverse=True)
     
     return free_models
 
@@ -102,24 +89,10 @@ def get_model_provider(model_id):
     return provider_map.get(provider, provider.capitalize())
 
 
-def get_model_score(model):
-    """计算模型综合评分"""
-    provider_weight = {
-        'openai': 100, 'google': 95, 'meta-llama': 90, 'nvidia': 85,
-        'qwen': 80, 'deepseek': 78, 'nousresearch': 75, 'minimax': 70,
-        'openrouter': 65, 'z-ai': 65, 'baidu': 60, 'poolside': 55,
-        'arcee-ai': 50, 'liquid': 45, 'cognitivecomputations': 40
-    }
-    ctx = model.get('context_length', 0)
-    provider = model.get('id', '').split('/')[0].lower()
-    weight = provider_weight.get(provider, 50)
-    return int(ctx * (weight / 50))
-
-
 def generate_full_table(models):
-    """生成完整模型表格（含提供商和评分）"""
-    table = "| # | 模型名称 | Model ID | 上下文长度 | 提供商 | 综合评分 |\n"
-    table += "|---|---------|----------|-----------|--------|----------|\n"
+    """生成完整模型表格（按上下文长度排序）"""
+    table = "| # | 模型名称 | Model ID | 上下文长度 | 提供商 |\n"
+    table += "|---|---------|----------|-----------|--------|\n"
     
     for i, model in enumerate(models, 1):
         name = model.get("name", "Unknown")
@@ -127,9 +100,8 @@ def generate_full_table(models):
         context = model.get("context_length", 0)
         context_str = f"{context:,}" if context else "N/A"
         provider = get_model_provider(model_id)
-        score = get_model_score(model)
         
-        table += f"| {i} | {name} | `{model_id}` | {context_str} | {provider} | ⭐{score:,} |\n"
+        table += f"| {i} | {name} | `{model_id}` | {context_str} | {provider} |\n"
     
     return table
 
