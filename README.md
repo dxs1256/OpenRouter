@@ -36,7 +36,7 @@
 | 27 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI |
 | 28 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice |
 
-> 📌 **最后更新**: 2026-05-25 12:05:13 (北京时间)  
+> 📌 **最后更新**: 2026-05-25 12:07:34 (北京时间)  
 > 📊 **总计**: 28 个免费模型
 ---
 
