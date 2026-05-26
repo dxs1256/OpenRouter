@@ -46,11 +46,6 @@
       "context_length": 262144
     },
     {
-      "id": "arcee-ai/trinity-large-thinking:free",
-      "name": "Arcee AI: Trinity Large Thinking (free)",
-      "context_length": 262144
-    },
-    {
       "id": "qwen/qwen3-next-80b-a3b-instruct:free",
       "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
       "context_length": 262144
@@ -141,5 +136,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-05-26T15:49:28.228607"
+  "updated_at": "2026-05-26T18:30:51.594087"
 }
