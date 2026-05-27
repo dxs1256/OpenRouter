@@ -31,11 +31,11 @@
 | 22 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
 | 23 | Baidu Qianfan: CoBuddy (free) | `baidu/cobuddy:free` | 131,072 | Baidu | ⭐76 |
 | 24 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
-| 25 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
-| 26 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 131,072 | Poolside | ⭐71 |
+| 25 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
+| 26 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
 | 27 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-05-27 08:12:27 (北京时间)  
+> 📌 **最后更新**: 2026-05-27 13:20:12 (北京时间)  
 > 📊 **总计**: 27 个免费模型
 ---
 
