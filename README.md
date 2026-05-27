@@ -29,14 +29,13 @@
 | 20 | MiniMax: MiniMax M2.5 (free) | `minimax/minimax-m2.5:free` | 204,800 | MiniMax | ⭐82 |
 | 21 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai | ⭐79 |
 | 22 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
-| 23 | Baidu Qianfan: CoBuddy (free) | `baidu/cobuddy:free` | 131,072 | Baidu | ⭐76 |
-| 24 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
-| 25 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
-| 26 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
-| 27 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
+| 23 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
+| 24 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
+| 25 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 26 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-05-27 18:25:47 (北京时间)  
-> 📊 **总计**: 27 个免费模型
+> 📌 **最后更新**: 2026-05-27 22:29:23 (北京时间)  
+> 📊 **总计**: 26 个免费模型
 ---
 
 ## 🔔 通知说明
