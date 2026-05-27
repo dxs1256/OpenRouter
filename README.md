@@ -26,7 +26,7 @@
 | 17 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
 | 18 | LiquidAI: LFM2.5-1.2B-Thinking (free) | `liquid/lfm-2.5-1.2b-thinking:free` | 32,768 | LiquidAI | ⭐88 |
 | 19 | Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter | ⭐85 |
-| 20 | MiniMax: MiniMax M2.5 (free) | `minimax/minimax-m2.5:free` | 204,800 | MiniMax | ⭐82 |
+| 20 | MiniMax: MiniMax M2.5 (free) | `minimax/minimax-m2.5:free` | 262,144 | MiniMax | ⭐82 |
 | 21 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai | ⭐79 |
 | 22 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
 | 23 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
@@ -35,7 +35,7 @@
 | 26 | MoonshotAI: Kimi K2.6 (free) | `moonshotai/kimi-k2.6:free` | 262,144 | Moonshotai | ⭐72 |
 | 27 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-05-28 05:03:14 (北京时间)  
+> 📌 **最后更新**: 2026-05-28 07:20:16 (北京时间)  
 > 📊 **总计**: 27 个免费模型
 ---
 
