@@ -96,11 +96,6 @@
       "context_length": 1048756
     },
     {
-      "id": "minimax/minimax-m2.5:free",
-      "name": "MiniMax: MiniMax M2.5 (free)",
-      "context_length": 204800
-    },
-    {
       "id": "z-ai/glm-4.5-air:free",
       "name": "Z.ai: GLM 4.5 Air (free)",
       "context_length": 131072
@@ -136,5 +131,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-05-30T23:02:48.914098"
+  "updated_at": "2026-05-31T04:15:24.841992"
 }
