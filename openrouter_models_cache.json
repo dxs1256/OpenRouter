@@ -61,11 +61,6 @@
       "context_length": 131072
     },
     {
-      "id": "deepseek/deepseek-v4-flash:free",
-      "name": "DeepSeek: DeepSeek V4 Flash (free)",
-      "context_length": 1048576
-    },
-    {
       "id": "nvidia/nemotron-3-nano-30b-a3b:free",
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
       "context_length": 256000
@@ -131,5 +126,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-05-31T11:01:59.069688"
+  "updated_at": "2026-05-31T13:54:23.342334"
 }

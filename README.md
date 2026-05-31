@@ -19,23 +19,22 @@
 | 10 | Qwen: Qwen3 Next 80B A3B Instruct (free) | `qwen/qwen3-next-80b-a3b-instruct:free` | 262,144 | Qwen | ⭐100 |
 | 11 | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1,000,000 | NVIDIA | ⭐98 |
 | 12 | Meta: Llama 3.2 3B Instruct (free) | `meta-llama/llama-3.2-3b-instruct:free` | 131,072 | Meta | ⭐96 |
-| 13 | DeepSeek: DeepSeek V4 Flash (free) | `deepseek/deepseek-v4-flash:free` | 1,048,576 | DeepSeek | ⭐95 |
-| 14 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | `nvidia/nemotron-3-nano-30b-a3b:free` | 256,000 | NVIDIA | ⭐93 |
-| 15 | NVIDIA: Nemotron 3 Nano Omni (free) | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | NVIDIA | ⭐90 |
-| 16 | NVIDIA: Nemotron Nano 12B 2 VL (free) | `nvidia/nemotron-nano-12b-v2-vl:free` | 128,000 | NVIDIA | ⭐90 |
-| 17 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
-| 18 | LiquidAI: LFM2.5-1.2B-Thinking (free) | `liquid/lfm-2.5-1.2b-thinking:free` | 32,768 | LiquidAI | ⭐88 |
-| 19 | Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter | ⭐85 |
-| 20 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai | ⭐79 |
-| 21 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
-| 22 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
-| 23 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
-| 24 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
-| 25 | MoonshotAI: Kimi K2.6 (free) | `moonshotai/kimi-k2.6:free` | 262,144 | Moonshotai | ⭐72 |
-| 26 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
+| 13 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | `nvidia/nemotron-3-nano-30b-a3b:free` | 256,000 | NVIDIA | ⭐93 |
+| 14 | NVIDIA: Nemotron 3 Nano Omni (free) | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | NVIDIA | ⭐90 |
+| 15 | NVIDIA: Nemotron Nano 12B 2 VL (free) | `nvidia/nemotron-nano-12b-v2-vl:free` | 128,000 | NVIDIA | ⭐90 |
+| 16 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
+| 17 | LiquidAI: LFM2.5-1.2B-Thinking (free) | `liquid/lfm-2.5-1.2b-thinking:free` | 32,768 | LiquidAI | ⭐88 |
+| 18 | Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter | ⭐85 |
+| 19 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai | ⭐79 |
+| 20 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
+| 21 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
+| 22 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
+| 23 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 24 | MoonshotAI: Kimi K2.6 (free) | `moonshotai/kimi-k2.6:free` | 262,144 | Moonshotai | ⭐72 |
+| 25 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-05-31 19:01:59 (北京时间)  
-> 📊 **总计**: 26 个免费模型
+> 📌 **最后更新**: 2026-05-31 21:54:23 (北京时间)  
+> 📊 **总计**: 25 个免费模型
 ---
 
 ## 🔔 通知说明
