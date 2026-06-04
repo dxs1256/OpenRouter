@@ -51,6 +51,11 @@
       "context_length": 262144
     },
     {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "name": "NVIDIA: Nemotron 3 Ultra (free)",
+      "context_length": 1000000
+    },
+    {
       "id": "nvidia/nemotron-3-super-120b-a12b:free",
       "name": "NVIDIA: Nemotron 3 Super (free)",
       "context_length": 1000000
@@ -78,6 +83,11 @@
     {
       "id": "nvidia/nemotron-nano-9b-v2:free",
       "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+      "context_length": 128000
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety:free",
+      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
       "context_length": 128000
     },
     {
@@ -126,5 +136,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-06-04T12:00:19.601990"
+  "updated_at": "2026-06-04T16:21:28.737810"
 }
