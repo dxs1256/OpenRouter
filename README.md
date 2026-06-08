@@ -30,13 +30,14 @@
 | 21 | Z.ai: GLM 4.5 Air (free) | `z-ai/glm-4.5-air:free` | 131,072 | Z.ai | ⭐79 |
 | 22 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
 | 23 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
-| 24 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
-| 25 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
-| 26 | MoonshotAI: Kimi K2.6 (free) | `moonshotai/kimi-k2.6:free` | 262,144 | Moonshotai | ⭐72 |
-| 27 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
+| 24 | Nex AGI: Nex-N2-Pro (free) | `nex-agi/nex-n2-pro:free` | 262,144 | Nex-agi | ⭐72 |
+| 25 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
+| 26 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 27 | MoonshotAI: Kimi K2.6 (free) | `moonshotai/kimi-k2.6:free` | 262,144 | Moonshotai | ⭐72 |
+| 28 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-06-09 00:01:08 (北京时间)  
-> 📊 **总计**: 27 个免费模型
+> 📌 **最后更新**: 2026-06-09 03:23:07 (北京时间)  
+> 📊 **总计**: 28 个免费模型
 ---
 
 ## 🔔 通知说明
