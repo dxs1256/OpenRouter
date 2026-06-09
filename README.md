@@ -36,7 +36,7 @@
 | 27 | MoonshotAI: Kimi K2.6 (free) | `moonshotai/kimi-k2.6:free` | 262,144 | Moonshotai | ⭐72 |
 | 28 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-06-09 23:13:44 (北京时间)  
+> 📌 **最后更新**: 2026-06-10 02:11:03 (北京时间)  
 > 📊 **总计**: 28 个免费模型
 ---
 
