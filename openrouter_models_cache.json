@@ -126,15 +126,10 @@
       "context_length": 262144
     },
     {
-      "id": "moonshotai/kimi-k2.6:free",
-      "name": "MoonshotAI: Kimi K2.6 (free)",
-      "context_length": 262144
-    },
-    {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
       "name": "Venice: Uncensored (free)",
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-06-10T16:37:52.988610"
+  "updated_at": "2026-06-10T19:36:32.097590"
 }
