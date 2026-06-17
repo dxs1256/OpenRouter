@@ -29,13 +29,14 @@
 | 20 | Owl Alpha | `openrouter/owl-alpha` | 1,048,756 | OpenRouter | ⭐85 |
 | 21 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
 | 22 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
-| 23 | Nex AGI: Nex-N2-Pro (free) | `nex-agi/nex-n2-pro:free` | 262,144 | Nex-agi | ⭐72 |
-| 24 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
-| 25 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
-| 26 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
+| 23 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
+| 24 | Nex AGI: Nex-N2-Pro (free) | `nex-agi/nex-n2-pro:free` | 262,144 | Nex-agi | ⭐72 |
+| 25 | Poolside: Laguna XS.2 (free) | `poolside/laguna-xs.2:free` | 262,144 | Poolside | ⭐72 |
+| 26 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 27 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-06-18 05:11:56 (北京时间)  
-> 📊 **总计**: 26 个免费模型
+> 📌 **最后更新**: 2026-06-18 07:42:11 (北京时间)  
+> 📊 **总计**: 27 个免费模型
 ---
 
 ## 🔔 通知说明
