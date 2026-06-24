@@ -34,7 +34,7 @@
 | 25 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
 | 26 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-06-24 15:50:59 (北京时间)  
+> 📌 **最后更新**: 2026-06-24 18:54:41 (北京时间)  
 > 📊 **总计**: 26 个免费模型
 ---
 
