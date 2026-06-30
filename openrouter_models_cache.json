@@ -96,11 +96,6 @@
       "context_length": 32768
     },
     {
-      "id": "openrouter/owl-alpha",
-      "name": "Owl Alpha",
-      "context_length": 1048756
-    },
-    {
       "id": "openrouter/free",
       "name": "Free Models Router",
       "context_length": 200000
@@ -131,5 +126,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-06-30T09:46:11.915411"
+  "updated_at": "2026-06-30T12:12:53.618131"
 }
