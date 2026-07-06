@@ -106,6 +106,11 @@
       "context_length": 32768
     },
     {
+      "id": "tencent/hy3:free",
+      "name": "Tencent: Hy3 (free)",
+      "context_length": 262144
+    },
+    {
       "id": "poolside/laguna-xs-2.1:free",
       "name": "Poolside: Laguna XS 2.1 (free)",
       "context_length": 262144
@@ -131,5 +136,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-07-06T10:45:06.248036"
+  "updated_at": "2026-07-06T14:29:23.180326"
 }
