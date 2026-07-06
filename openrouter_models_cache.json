@@ -11,11 +11,6 @@
       "context_length": 131072
     },
     {
-      "id": "qwen/qwen3-235b-a22b-2507",
-      "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "context_length": 262144
-    },
-    {
       "id": "openai/gpt-oss-120b:free",
       "name": "OpenAI: gpt-oss-120b (free)",
       "context_length": 131072
@@ -141,5 +136,5 @@
       "context_length": 32768
     }
   ],
-  "updated_at": "2026-07-06T20:03:07.454945"
+  "updated_at": "2026-07-06T22:17:09.527568"
 }
