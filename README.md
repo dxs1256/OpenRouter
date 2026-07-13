@@ -25,17 +25,15 @@
 | 16 | NVIDIA: Nemotron Nano 12B 2 VL (free) | `nvidia/nemotron-nano-12b-v2-vl:free` | 128,000 | NVIDIA | ⭐90 |
 | 17 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
 | 18 | NVIDIA: Nemotron 3.5 Content Safety (free) | `nvidia/nemotron-3.5-content-safety:free` | 128,000 | NVIDIA | ⭐89 |
-| 19 | LiquidAI: LFM2.5-1.2B-Thinking (free) | `liquid/lfm-2.5-1.2b-thinking:free` | 32,768 | LiquidAI | ⭐88 |
-| 20 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
-| 21 | LiquidAI: LFM2.5-1.2B-Instruct (free) | `liquid/lfm-2.5-1.2b-instruct:free` | 32,768 | LiquidAI | ⭐73 |
-| 22 | Tencent: Hy3 (free) | `tencent/hy3:free` | 262,144 | Tencent | ⭐72 |
-| 23 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
-| 24 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
-| 25 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
-| 26 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
+| 19 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
+| 20 | Tencent: Hy3 (free) | `tencent/hy3:free` | 262,144 | Tencent | ⭐72 |
+| 21 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
+| 22 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
+| 23 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 24 | Venice: Uncensored (free) | `cognitivecomputations/dolphin-mistral-24b-venice-edition:free` | 32,768 | Venice | ⭐65 |
 
-> 📌 **最后更新**: 2026-07-13 20:09:22 (北京时间)  
-> 📊 **总计**: 26 个免费模型
+> 📌 **最后更新**: 2026-07-13 23:43:01 (北京时间)  
+> 📊 **总计**: 24 个免费模型
 ---
 
 ## 🔔 通知说明
