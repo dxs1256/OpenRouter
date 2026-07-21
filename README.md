@@ -20,13 +20,12 @@
 | 11 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
 | 12 | NVIDIA: Nemotron 3.5 Content Safety (free) | `nvidia/nemotron-3.5-content-safety:free` | 128,000 | NVIDIA | ⭐89 |
 | 13 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
-| 14 | Tencent: Hy3 (free) | `tencent/hy3:free` | 262,144 | Tencent | ⭐72 |
-| 15 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
-| 16 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
-| 17 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 14 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
+| 15 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
+| 16 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
 
-> 📌 **最后更新**: 2026-07-21 07:59:02 (北京时间)  
-> 📊 **总计**: 17 个免费模型
+> 📌 **最后更新**: 2026-07-21 11:34:54 (北京时间)  
+> 📊 **总计**: 16 个免费模型
 ---
 
 ## 🔔 通知说明
