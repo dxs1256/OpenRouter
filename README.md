@@ -13,19 +13,20 @@
 | 4 | Google: Gemma 4 26B A4B  (free) | `google/gemma-4-26b-a4b-it:free` | 262,144 | Google | ⭐100 |
 | 5 | Google: Gemma 4 31B (free) | `google/gemma-4-31b-it:free` | 262,144 | Google | ⭐100 |
 | 6 | NVIDIA: Nemotron 3 Ultra (free) | `nvidia/nemotron-3-ultra-550b-a55b:free` | 1,000,000 | NVIDIA | ⭐98 |
-| 7 | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 1,000,000 | NVIDIA | ⭐98 |
-| 8 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | `nvidia/nemotron-3-nano-30b-a3b:free` | 256,000 | NVIDIA | ⭐93 |
-| 9 | NVIDIA: Nemotron 3 Nano Omni (free) | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | NVIDIA | ⭐90 |
+| 7 | NVIDIA: Nemotron 3 Nano 30B A3B (free) | `nvidia/nemotron-3-nano-30b-a3b:free` | 256,000 | NVIDIA | ⭐93 |
+| 8 | NVIDIA: Nemotron 3 Nano Omni (free) | `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | 256,000 | NVIDIA | ⭐90 |
+| 9 | NVIDIA: Nemotron 3 Super (free) | `nvidia/nemotron-3-super-120b-a12b:free` | 262,144 | NVIDIA | ⭐90 |
 | 10 | NVIDIA: Nemotron Nano 12B 2 VL (free) | `nvidia/nemotron-nano-12b-v2-vl:free` | 128,000 | NVIDIA | ⭐90 |
 | 11 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
 | 12 | NVIDIA: Nemotron 3.5 Content Safety (free) | `nvidia/nemotron-3.5-content-safety:free` | 128,000 | NVIDIA | ⭐89 |
 | 13 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
-| 14 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
-| 15 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
-| 16 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 14 | Poolside: Laguna S 2.1 (free) | `poolside/laguna-s-2.1:free` | 262,144 | Poolside | ⭐72 |
+| 15 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
+| 16 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
+| 17 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
 
-> 📌 **最后更新**: 2026-07-22 00:25:02 (北京时间)  
-> 📊 **总计**: 16 个免费模型
+> 📌 **最后更新**: 2026-07-22 02:17:08 (北京时间)  
+> 📊 **总计**: 17 个免费模型
 ---
 
 ## 🔔 通知说明

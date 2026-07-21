@@ -31,11 +31,6 @@
       "context_length": 1000000
     },
     {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "context_length": 1000000
-    },
-    {
       "id": "nvidia/nemotron-3-nano-30b-a3b:free",
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
       "context_length": 256000
@@ -44,6 +39,11 @@
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
       "context_length": 256000
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "NVIDIA: Nemotron 3 Super (free)",
+      "context_length": 262144
     },
     {
       "id": "nvidia/nemotron-nano-12b-v2-vl:free",
@@ -66,6 +66,11 @@
       "context_length": 200000
     },
     {
+      "id": "poolside/laguna-s-2.1:free",
+      "name": "Poolside: Laguna S 2.1 (free)",
+      "context_length": 262144
+    },
+    {
       "id": "poolside/laguna-xs-2.1:free",
       "name": "Poolside: Laguna XS 2.1 (free)",
       "context_length": 262144
@@ -81,5 +86,5 @@
       "context_length": 262144
     }
   ],
-  "updated_at": "2026-07-21T16:25:02.805389"
+  "updated_at": "2026-07-21T18:17:08.896280"
 }
