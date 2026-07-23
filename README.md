@@ -20,13 +20,14 @@
 | 11 | NVIDIA: Nemotron Nano 9B V2 (free) | `nvidia/nemotron-nano-9b-v2:free` | 128,000 | NVIDIA | ⭐90 |
 | 12 | NVIDIA: Nemotron 3.5 Content Safety (free) | `nvidia/nemotron-3.5-content-safety:free` | 128,000 | NVIDIA | ⭐89 |
 | 13 | Free Models Router | `openrouter/free` | 200,000 | OpenRouter | ⭐77 |
-| 14 | Poolside: Laguna S 2.1 (free) | `poolside/laguna-s-2.1:free` | 262,144 | Poolside | ⭐72 |
-| 15 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
-| 16 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
-| 17 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
+| 14 | Ling-3.0-flash | `inclusionai/ling-3.0-flash` | 262,144 | Inclusionai | ⭐72 |
+| 15 | Poolside: Laguna S 2.1 (free) | `poolside/laguna-s-2.1:free` | 262,144 | Poolside | ⭐72 |
+| 16 | Poolside: Laguna XS 2.1 (free) | `poolside/laguna-xs-2.1:free` | 262,144 | Poolside | ⭐72 |
+| 17 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
+| 18 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
 
-> 📌 **最后更新**: 2026-07-23 23:11:30 (北京时间)  
-> 📊 **总计**: 17 个免费模型
+> 📌 **最后更新**: 2026-07-24 01:26:30 (北京时间)  
+> 📊 **总计**: 18 个免费模型
 ---
 
 ## 🔔 通知说明

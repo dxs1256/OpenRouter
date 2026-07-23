@@ -66,6 +66,11 @@
       "context_length": 200000
     },
     {
+      "id": "inclusionai/ling-3.0-flash",
+      "name": "Ling-3.0-flash",
+      "context_length": 262144
+    },
+    {
       "id": "poolside/laguna-s-2.1:free",
       "name": "Poolside: Laguna S 2.1 (free)",
       "context_length": 262144
@@ -86,5 +91,5 @@
       "context_length": 262144
     }
   ],
-  "updated_at": "2026-07-23T15:11:30.191962"
+  "updated_at": "2026-07-23T17:26:30.539990"
 }
