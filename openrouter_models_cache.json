@@ -66,8 +66,8 @@
       "context_length": 200000
     },
     {
-      "id": "inclusionai/ling-3.0-flash",
-      "name": "Ling-3.0-flash",
+      "id": "inclusionai/ling-3.0-flash:free",
+      "name": "Ling-3.0-flash (free)",
       "context_length": 262144
     },
     {
@@ -91,5 +91,5 @@
       "context_length": 262144
     }
   ],
-  "updated_at": "2026-07-23T17:26:30.539990"
+  "updated_at": "2026-07-23T19:23:33.491445"
 }
