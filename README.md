@@ -26,7 +26,7 @@
 | 17 | Cohere: North Mini Code (free) | `cohere/north-mini-code:free` | 256,000 | Cohere | ⭐72 |
 | 18 | Poolside: Laguna M.1 (free) | `poolside/laguna-m.1:free` | 262,144 | Poolside | ⭐72 |
 
-> 📌 **最后更新**: 2026-07-24 03:23:33 (北京时间)  
+> 📌 **最后更新**: 2026-07-24 05:08:14 (北京时间)  
 > 📊 **总计**: 18 个免费模型
 ---
 
